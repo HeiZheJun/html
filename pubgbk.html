@@ -206,12 +206,13 @@
        }
        .table{
            width: 657px;
-           height: 735px;
+           height: auto;
             margin: 5px 0 5px;
             border-collapse: collapse;
             word-wrap: break-word;
             word-break: break-all;
             float: left;
+            border-collapse: collapse;
        }
        .tr{
         text-align: left;
@@ -219,6 +220,8 @@
         font-weight: 700;
         line-height: 22px;
         height: auto;
+        style="border-collapse: collapse;
+        border-spacing: 0;
        }
        .th{
            border: 1px solid #e6e6e6;
@@ -228,7 +231,8 @@
            height: 23px;
            font-size: 12px;
            line-height: 22px;
-           padding: 2px 10px; 
+           padding: 2px 10px;
+           border-collapse: collapse; 
        }
        .t3wz{
         float:right;
@@ -263,6 +267,18 @@
            border: solid 1px #e6e6e6;
            border-top: 1px solid #f5f5f5; 
            margin: auto;
+       }
+       .top{
+        border: 1px solid #e6e6e6;
+           text-align: left;
+           padding: 2px 10px; 
+           line-height: 22px;
+           font-size: 12px;
+           font-weight: 400;
+           font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
+           color: #333;
+           border-collapse: collapse;
+           border-spacing: 0;
        }
     </style>
     </head>
@@ -456,25 +472,26 @@
                 <div class="wqzb">
                     <p style="font-size: 19px;">武器装备</p>
                 </div>
-                <div class="wqzb3t">
-                    
-                    <a href="https://baike.baidu.com/pic/绝地求生/20321989/23334759/5ab5c9ea15ce36d3bda7538736f33a87e850b1e2?fr=lemma&ct=cover#aid=23334759&pic=5ab5c9ea15ce36d3bda7538736f33a87e850b1e2">
-                        <img src="wqzb.jpg" style="width: 220px;height: 123px;float: right;border: 1px solid #e0e0e0;">
-                    </a>
                 
-                     <div class="t3wz">合并图册<span style="color: gray">(3张)</span></div>
-                     <div class="t3xm">
-                         <div class="t3xm2"></div>
-                         <div class="t3xm3"></div>
-                     </div>
-                </div>
                 <div class="para">
-                    <b>枪械</b>角色身上可携带4种武器，分别是近战武器1把 （如镰刀、平底锅等）、远程枪械2把（步枪、机枪、狙击枪、霰弹枪、冲锋枪），手枪1把，投掷武器（破片手雷、烟雾弹、闪光弹(可携带多颗不同种类)）,不过作战过程中，只能切换以上其中一把武器来使用。
+                    <b>枪械</b>角色<div class="wqzb3t" style="float: right">
+                    
+                            <a href="https://baike.baidu.com/pic/绝地求生/20321989/23334759/5ab5c9ea15ce36d3bda7538736f33a87e850b1e2?fr=lemma&ct=cover#aid=23334759&pic=5ab5c9ea15ce36d3bda7538736f33a87e850b1e2">
+                                <img src="wqzb.jpg" style="width: 220px;height: 123px;float: right;border: 1px solid #e0e0e0;">
+                            </a>
+                        
+                             <div class="t3wz">合并图册<span style="color: gray">(3张)</span></div>
+                             <div class="t3xm">
+                                 <div class="t3xm2"></div>
+                                 <div class="t3xm3"></div>
+                             </div>
+                        </div>
+                        身上可携带4种武器，分别是近战武器1把 （如镰刀、平底锅等）、远程枪械2把（步枪、机枪、狙击枪、霰弹枪、冲锋枪），手枪1把，投掷武器（破片手雷、烟雾弹、闪光弹(可携带多颗不同种类)）,不过作战过程中，只能切换以上其中一把武器来使用。
                 </div>
                 <table class="table">
                  <tbody>
                     <tr class="tr">
-                        <th class="th" width="34"  style="border-right: 0">枪械类型</th>
+                        <th class="th" width="34"  style="border-collapse: collapse;">枪械类型</th>
                         <th  class="th"   width="623">描述</th>
                     </tr>
                     <tr class="tr">
@@ -535,8 +552,71 @@
                                                 </tr>
                  </tbody>
                 </table>
-                <div class="para"><b>配件</b></div>
-                
+                <div class="para" style=""><b>配件</b></div>
+                <table class="table" style="width: auto">
+                    <tbody>
+                            <tr class="tr">
+                                    <th class="th" style="width: 37px;border-collapse: collapse;">握把类</th>
+                                    <td class="top" style="width: 73px;">直角前握把</td>
+                                    <td class="top" style="width: 73px;">垂直握把</td>
+                                    <td class="top" style="width: 97px;">轻型握把</td>
+                                    <td class="top" style="width: 85px;">半截式握把</td>
+                                    <td class="top" style="width: 85px;">拇指握把</td>
+                                    <td class="top" style="width: 110px;">箭袋</td>
+                                    <td class="top" style="width: 44px;"></td>
+                                </tr>
+                        <tr class="tr">
+                                <th class="th" style="width: 37px;border-collapse: collapse;">瞄具类</th>
+                                <td class="top" style="width: 73px;">红点瞄准镜</td>
+                                <td class="top" style="width: 73px;">全息瞄准镜</td>
+                                <td class="top" style="width: 97px;">2X瞄准镜</td>
+                                <td class="top" style="width: 85px;">3X瞄准镜</td>
+                                <td class="top" style="width: 85px;">4X瞄准镜</td>
+                                <td class="top" style="width: 110px;">6X瞄准镜</td>
+                                <td class="top" style="width: 44px;">8X瞄准镜</td>
+                            </tr>
+                        <tr class="tr">
+                                <th class="th" style="width: 37px;border-collapse: collapse;">枪口类</th>
+                                <td class="top" style="width: 73px;">步枪补偿器</td>
+                                <td class="top" style="width: 73px;">步枪消焰器</td>
+                                <td class="top" style="width: 97px;">步枪消音器</td>
+                                <td class="top" style="width: 85px;">狙击枪补偿器</td>
+                                <td class="top" style="width: 85px;">狙击枪消焰器</td>
+                                <td class="top" style="width: 110px;">狙击枪消音器</td>
+                                <td class="top" style="width: 44px;">散弹枪收束器</td>
+                        </tr>
+                        <tr class="tr">
+                                <th class="th" style="width: 37px;border-collapse: collapse;">弹夹类</th>
+                                <td class="top"style="width: 73px;">步枪快速弹夹</td>
+                                <td class="top" style="width: 73px;">步枪扩容弹夹</td>
+                                <td class="top" style="width: 97px;">步枪快速扩容弹夹</td>
+                                <td class="top" style="width: 85px;">狙击枪快速弹夹</td>
+                                <td class="top" style="width: 85px;">狙击枪扩容弹夹</td>
+                                <td class="top" style="width: 110px;">狙击枪快速扩容弹夹</td>
+                                <td class="top" style="width: 44px;"></td>
+                        <tr class="tr">
+                                <th class="th" style="width: 37px;border-collapse: collapse;">枪托类</th>
+                                <td class="top" style="width: 73px;">狙击枪托腮板</td>
+                                <td class="top" style="width: 73px;">狙击枪子弹袋</td>
+                                <td class="top" style="width: 97px;">散弹枪子弹袋</td>
+                                <td class="top" style="width: 85px;">UZI枪托</td>
+                                <td class="top" style="width: 85px;">战术枪托</td>
+                                <td class="top" style="width: 110px;"></td>
+                                <td class="top" style="width: 44px;"></td>
+                        </tr>                        
+                    </tbody>
+                </table>
+                <div class="para">游戏中可以根
+                        <div style="width: 220px;height: 143px;border: solid 1px #e6e6e6;float: right">
+                            <a  href="https://baike.baidu.com/pic/绝地求生/20321989/0/ac345982b2b7d0a21a007fc7c7ef76094a369a9a?fr=lemma&ct=single#aid=0&pic=ac345982b2b7d0a21a007fc7c7ef76094a369a9a">
+                                <img src="fdy.jpg" width="220px" height="143px">
+                            </a>
+                        </div>
+                        据枪的种类更换不同的配件，在配
+                        件当中垂直握把对降低后坐力有很好的效果，而消音器/消焰器/补偿器则会在各种情况下有各自的优势，快速扩容弹夹则可以提供更快的换弹速度，瞄准镜则是让自动步枪拥有了在中远距离战斗的可能性。玩家所持有枪械的伤害是固定计算的，所不同的是每一把枪都有不同的初速，枪械的伤害，出膛速度射击间隔主要由枪本身和所使用的子弹口径所决定。在每一局比赛中，玩家使用的道具属性不会随着游戏时长的变化而变化。 
+                        <sup class="sup">[7]</sup> 
+                </div>
+
 
             </div> 
         </div>
