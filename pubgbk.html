@@ -211,15 +211,24 @@
             border-collapse: collapse;
             word-wrap: break-word;
             word-break: break-all;
-            border: 1px solid #e6e6e6;
             float: left;
        }
        .tr{
-        border: 1px solid #e6e6e6;
         text-align: left;
         float: left;
         font-weight: 700;
         line-height: 22px;
+        height: auto;
+       }
+       .th{
+           border: 1px solid #e6e6e6;
+           text-align: left;
+           background-color:#F8f8f8;
+           font-weight: 700;
+           height: 23px;
+           font-size: 12px;
+           line-height: 22px;
+           padding: 2px 10px; 
        }
        .t3wz{
         float:right;
@@ -465,15 +474,70 @@
                 <table class="table">
                  <tbody>
                     <tr class="tr">
-                        <th width="34">枪械类型</th>
-                        <th width="623">描述</th>
+                        <th class="th" width="34"  style="border-right: 0">枪械类型</th>
+                        <th  class="th"   width="623">描述</th>
                     </tr>
-                    <tr>
-                        <th></th>
+                    <tr class="tr">
+                        <th class="th" width="34" style="border-top: 0;border-right: 0">狙击步枪</th>
+                        <td width="623" style="border:1px solid #e6e6e6;border-top: 0;padding: 0;padding: 2px 10px;">
+                            <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">狙击步枪又称单发栓动步枪，是可以在超远距离击杀敌人的枪械，无论是攻击力，还是射程都比其他类型枪械厉害，是“伏地魔”的必备武器之一。瞄准镜则是为狙击枪提供了更清晰的视野（win94是例外，无法装备瞄准镜），而消音器则可以提高玩家的隐蔽性（win94是例外，无法安装任何枪口）。</div>
+                            <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">枪械类型：AWM、M24、Kar98k、win94</div>
+                        </td>      
                     </tr>
-
+                    <tr class="tr">
+                            <th class="th" width="34" style="border-top: 0;border-right: 0">精确射手步枪</th>
+                            <td width="623" style="border:1px solid #e6e6e6;border-top: 0;padding: 0;padding: 2px 10px;">
+                                <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">狙击步枪又称单发栓动步枪，是可以在超远距离击杀敌人的枪械，无论是攻击力，还是射程都比其他类型枪械厉害，是“伏地魔”的必备武器之一。瞄准镜则是为狙击枪提供了更清晰的视野（win94是例外，无法装备瞄准镜），而消音器则可以提高玩家的隐蔽性（win94是例外，无法安装任何枪口）。</div>
+                                <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">枪械类型：SKS、MINI14、VSS、SLR、MK14</div>
+                            </td>      
+                        </tr>
+                        <tr class="tr">
+                                <th class="th" width="34" style="border-top: 0;border-right: 0">突击步枪</th>
+                                <td width="623" style="border:1px solid #e6e6e6;border-top: 0;padding: 0;padding: 2px 10px;">
+                                    <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">自动步枪适合在中近距离使用，也可以在中远距离利用瞄准镜的优势，来对对手进行远距离点射，但距离一旦变远，自动步枪的精准度，就会大打折扣，使用不当更是会暴露自身的位置。</div>
+                                    <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">枪械类型：AKM、SCAR-L、Groza、M16A4、M416、AUG、QBZ95</div>
+                                </td>      
+                            </tr>
+                            <tr class="tr">
+                                    <th class="th" width="34" style="border-top: 0;border-right: 0">冲锋枪</th>
+                                    <td width="623" style="border:1px solid #e6e6e6;border-top: 0;padding: 0;padding: 2px 10px;">
+                                        <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">冲锋枪的优势在于它近距离的射速，在近身战的时候，枪法好的玩家可以占到非常大的优势，而冲锋枪的好处就在于它不仅射速非常快，而且近距离稳定性高。但其劣势也非常明显，除了射程近之外，冲锋枪的基础弹夹非常浅。</div>
+                                        <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">枪械类型：UMP9、VECTOR、Tommy Gun、Micro UZI</div>
+                                    </td>      
+                                </tr>
+                                <tr class="tr">
+                                        <th class="th" width="34" style="border-top: 0;border-right: 0">霰弹枪</th>
+                                        <td width="623" style="border:1px solid #e6e6e6;border-top: 0;padding: 0;padding: 2px 10px;">
+                                            <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">霰弹枪的主要优势在于屋内战斗，或者是贴身战斗，但是巨大的威力，也为这把武器带来的危险性。有些霰弹枪还需要打两发换一次子弹，这样就极大的提高了不确定性。</div>
+                                            <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">枪械类型：S1897、S12K、S686</div>
+                                        </td>      
+                                    </tr>
+                                    <tr class="tr">
+                                            <th class="th" width="34" style="border-top: 0;border-right: 0">机枪</th>
+                                            <td width="623" style="border:1px solid #e6e6e6;border-top: 0;padding: 0;padding: 2px 10px;">
+                                                <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">火力非常猛，非常适合在敌人有载具的时候进行扫射，极高的射速可以轻松将载具打爆。虽说这把枪后座力不大，但并不适合持续的扫射，另外如果安装高倍镜连续射击将不可控。</div>
+                                                <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">枪械类型：M249、DP-28</div>
+                                            </td>      
+                                        </tr>
+                                        <tr class="tr">
+                                                <th class="th" width="34" style="border-top: 0;border-right: 0">手枪</th>
+                                                <td width="623" style="border:1px solid #e6e6e6;border-top: 0;padding: 0;padding: 2px 10px;">
+                                                    <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">最容易找到的枪械，射程短威力小。落地没其他枪械时可，以捡来用，使用时尽量贴近射击。</div>
+                                                    <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">枪械类型：P92、P1911、P18c、R1895、R45、Sawed-Off</div>
+                                                </td>      
+                                            </tr>
+                                            <tr class="tr">
+                                                    <th class="th" width="34" style="border-top: 0;border-right: 0">弓弩</th>
+                                                    <td width="623" style="border:1px solid #e6e6e6;border-top: 0;padding: 0;padding: 2px 10px;">
+                                                        <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">它们非常罕见，整个地图不会那么轻易搜到，它们是近战最犀利的武器，也是唯一能造成伤害并无视任何防护手段的武器（平底锅除外），装弹与射速速度较慢、箭道下坠速度快，几乎听不到任何声音是它的优点，而且自带红点瞄准镜，只能根据箭道来推测位置。</div>
+                                                        <div class="para" style="text-indent: 0;font-size: 12px;line-height: 22px;margin: 0">枪械类型：十字弩</div>
+                                                    </td>      
+                                                </tr>
                  </tbody>
                 </table>
+                <div class="para"><b>配件</b></div>
+                
+
             </div> 
         </div>
     </body>
