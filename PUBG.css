@@ -1,0 +1,58 @@
+body{
+    background-color:#f5f5f5;
+    margin: 0;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif；
+}
+.content{
+    width: 83.5%;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: white;
+    border:1px solid #e5e5e5;
+    position: relative;
+}
+.leftpage{
+    width: 70%;
+    padding: 29px;
+    line-height: 1.5;
+}
+.pagemarign{
+    margin: 0 0 10px;
+}
+.leftpage h1{
+    font-size: 34px;
+    font-weight: 400;
+    display:initial;
+}
+.leftpage h2{
+    display: initial;
+    font-size: 20px;
+    font-weight: 400;
+}
+.para{
+color: #333;
+text-indent: 2em;
+line-height: 24px;
+zoom:1;
+margin-bottom: 15px;
+font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
+font-size: 14px;
+}
+.Synonym{
+    font-size: 12px;
+}
+.Synonym a{
+    text-decoration: none;
+    border: 1px solid #579be0;
+    color: #579be0;
+    padding: 2px;
+}
+.Synonym span{
+    color: #579be0;
+}
+.para a:link{color:#136ec2;text-decoration: none;}
+.para a:visited{color: #136ec2;text-decoration: none;}
+.para a:hover{color: #136ec2;text-decoration:underline}
+.para a:active{color: #136ec2;text-decoration:underline}
+sup{color: #136ec2 }
