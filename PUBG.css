@@ -1,19 +1,20 @@
 body{
     background-color:#f5f5f5;
     margin: 0;
-    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif；
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+    font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
 }
 .content{
     width: 83.5%;
     height: auto;
     margin-left:auto;
     margin-right: auto;
-    background-color: white;
+    background-color:#fff;
     border:1px solid #e5e5e5;
     position: relative;
 }
 .leftpage{
-    width: 70%;
+    width: 69%;
     padding: 29px;
     line-height: 1.5;
 }
@@ -24,11 +25,13 @@ body{
     font-size: 34px;
     font-weight: 400;
     display:initial;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
 }
 .leftpage h2{
     display: initial;
     font-size: 20px;
     font-weight: 400;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
 }
 .para{
 color: #333;
@@ -38,9 +41,12 @@ zoom:1;
 margin-bottom: 15px;
 font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
 font-size: 14px;
+margin-bottom: 15px;
 }
 .Synonym{
     font-size: 12px;
+    margin:0 0  15px;
+    display: block;
 }
 .Synonym a{
     text-decoration: none;
@@ -56,3 +62,151 @@ font-size: 14px;
 .para a:hover{color: #136ec2;text-decoration:underline}
 .para a:active{color: #136ec2;text-decoration:underline}
 sup{color: #136ec2 }
+
+.basic-info{
+    margin: 20px 0 35px;
+    overflow: hidden;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+}
+.basic-left{
+    width: 50%;
+    overflow: hidden;
+}
+.dl{
+    overflow: hidden;
+    float: left;
+    width: 388.6px;
+    margin: 0;
+    position: relative;
+    font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
+    
+}
+.dt{
+    position: relative;
+    height: 26px;
+    color: #999;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 30px;
+    float: left;
+    padding: 0 5px 0 12px;
+    border-bottom: dashed #9999996e 1px;
+    margin: 0;
+    width: 80px;
+}
+.dd{
+    position: relative;
+    height: 26px;
+    font-size: 13px;
+    float: left;
+    line-height: 30px;
+    width: 286px;
+    border-bottom: dashed #9999996e 1px;
+    margin: 0;
+}
+.lemma{
+    margin: 35px 0;
+    overflow: hidden;
+}
+.lemmaCatalog{
+    float: left;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #fbfbfb;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+}
+.black-title{
+    float: left;
+    margin: 22px 0 0 20px;
+    width: 62px;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 400;
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+}
+.catalog-list{
+    padding: 15px 0 20px;
+    border-left: 1px solid #ebebeb;
+    float: left;
+    display: block;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    border-collapse: collapse;
+    
+}
+.level1{
+    color: #136ec2;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+.level2{
+    line-height: 21px;
+    list-style: none;
+}
+ol{
+    float: left;
+    border-left: 1px solid #ebebeb;
+    margin: 0;
+    padding: 0;
+}
+.index{
+    padding: 0 8px 0 20px;
+    width: 18px;
+    text-align: right;
+    color: #136ec2;
+    display: inline-block;
+}
+.txt{
+    font-size: 500;
+    width: 120px;
+    display: inline-block;
+}
+
+.txt a:link{color: #136ec2;text-decoration: none;}
+.txt a:visited{color: #136ec2;text-decoration: none;}
+.txt a:hover{color: #136ec2;text-decoration:underline}
+.txt a:active{color: #136ec2;text-decoration:underline}
+
+
+.text a:link{color: #333;text-decoration: none;}
+.text a:visited{color: #333;text-decoration: none;}
+.text a:hover{color: #333;text-decoration:underline}
+.text a:active{color: #333;text-decoration:underline}
+
+.bgsetting-title{
+    border-left: 12px solid #4F9CEE;
+    margin: 35px 0 15px -30px;
+    background: url(https://bkssl.bdimg.com/static/wiki-lemma/normal/resource/img/paraTitle-line_c5e6d61.png);}
+.bgsetting-text{
+    font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
+    padding: 0 8px 0 18px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    line-height: 24px;
+}
+.titleimg{
+    float: right;
+    border: 1px solid #e0e0e0;
+    width: 220px;
+    height: 123px;
+}
+img.size{
+    width: 220px;
+    height: 123px;
+    float: right;
+}
+.text3{
+    font-size: 18px;
+    font-weight: 400;
+}
