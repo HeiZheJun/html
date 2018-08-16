@@ -254,6 +254,7 @@ div.description span{
     font-size: 12px;
     line-height: 22px;
     border-collapse: collapse;
+    float: left;
 }
 .th{
     background-color: #f8f8f8;
