@@ -4,20 +4,30 @@ body{
     font-family: arial,tahoma,'Microsoft Yahei','\5b8b\4f53',sans-serif;
     font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
 }
+
 .content{
-    width: 83.5%;
+    width: 85%;
     height: auto;
-    margin-left:auto;
-    margin-right: auto;
+    margin: 20px auto;
     background-color:#fff;
     border:1px solid #e5e5e5;
     position: relative;
     overflow: hidden;
 }
 .leftpage{
+    position: relative;
     width: 69%;
     padding: 29px;
     line-height: 1.5;
+    float: left;
+    overflow: hidden;
+}
+.rightpage{
+    position: relative;
+    line-height: 1.5;
+    float: left;
+    overflow: hidden;
+    margin: 20px 0;
 }
 .pagemarign{
     margin: 0 0 10px;
@@ -39,8 +49,6 @@ color: #333;
 text-indent: 2em;
 line-height: 24px;
 zoom:1;
-margin-bottom: 15px;
-font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
 font-size: 14px;
 margin-bottom: 15px;
 }
@@ -211,6 +219,9 @@ img.size{
 .text3{
     font-size: 18px;
     font-weight: 400;
+    margin: 20px 0 12px;
+    font-family: Microsoft YaHei,SimHei,Verdana;
+    line-height: 20px;
 }
 .description{
     float: right;
@@ -254,7 +265,6 @@ div.description span{
     font-size: 12px;
     line-height: 22px;
     border-collapse: collapse;
-    float: left;
 }
 .th{
     background-color: #f8f8f8;
@@ -272,4 +282,18 @@ div.description span{
     height: 22px;
     border: 1px solid #e6e6e6;
     border-collapse: collapse;
+}
+
+.para1{
+    color: #333;
+    height: auto;
+    zoom:1;
+    font: 12px/1.5 arial,'\5b8b\4f53',sans-serif;
+    font-size: 12px;
+    margin:0;
+    line-height: 24px;
+}
+.cs{
+    position: fixed;
+    top: 40px;
 }
