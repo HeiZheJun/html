@@ -1,0 +1,50 @@
+body{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #3C3C3C;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.top{
+    background-color: #FFF;
+    padding-top: 24px;
+    height: 97px;
+}
+.top-warp{
+    margin: 0 auto;
+    position: relative;
+    width: 85%;
+    height: 88px;
+    line-height: 0;
+}
+.log{
+    width: 190px;
+    height: 80px;
+    float: left;
+    margin-top: 8px;
+    background-image:url('/E:/code/html/TB1.png');
+    background-repeat:no-repeat;
+}
+.logs{
+    margin-left: 20%;
+    width: 50%;
+    height: 88px;
+}
+.srarch-wrap{
+    position: relative;
+}
+ul,ol{
+    list-style: none;
+}
+.search{
+    color: #F40;
+    float: left;
+}
+.search-li{
+    margin-right: 10px;
+    line-height: 20px;
+    float: left;
+}
+.ss{
+    height: 40px;
+    border: 2px solid #F40;
+}
