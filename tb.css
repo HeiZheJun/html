@@ -4,6 +4,9 @@ body{
     background-color: #f4f4f4;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
 .top{
     background-color: #FFF;
     padding-top: 24px;
@@ -73,11 +76,12 @@ input.input2:hover{
 
 }
 .search2{
-    color:gray;
+    
     overflow: hidden;
     margin: 0;
 }
 .search2-li{
+    color:gray;
     margin-right: 10px;
     line-height: 20px;
     float: left;
@@ -87,7 +91,7 @@ input.input2:hover{
     overflow: hidden;
 }
 .page{
-    color: #fff;
+    
     margin: 5px 0 5px 0;
     overflow: hidden;
     font-size: 16px;
@@ -95,6 +99,7 @@ input.input2:hover{
     padding: 0;
 }
 .page-li{
+    color: #fff;
     font-weight: bold;
     float: left;
     margin: 0 15px;
@@ -113,18 +118,37 @@ input.input2:hover{
 
 }
 .MainPage{
-    height: 500px;
-    
     margin: 0 auto;
     width: 90%;
     overflow: hidden;
 }
 .Homepage{
     overflow: hidden;
-    height: 500px;
     background: #fff;
     width: 189px;
     float: left;
+}
+.Homepage-ul{
+    border: 1px solid #ff5000;
+    border-top: none;
+    padding-bottom: 3px;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+.Homepage-li{
+    line-height: 32px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    width: 145px;
+    padding-left: 19px;
+    padding-right: 24px;
+    position: relative;
+}
+.Homepage-li-color{
+    color: #666;
 }
 .Homeimg{
     overflow: hidden;
@@ -145,4 +169,19 @@ input.input2:hover{
 .Homeleftimg{
     width: 340px;
     height: 1000px;
+}
+.page-li-color
+{
+    color: #fff;
+}
+i{
+    position: absolute;
+    border-width: 5px 0 5px 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #666;
+    margin: 11px auto;
+    right: 15px;
+}
+div.Homepage .Homepage-ul .Homepage-li:hover{
+    background:#ff6e6e69;
 }
